@@ -1,13 +1,21 @@
 package recursion.conceptual;
 
-import java.util.Arrays;
 
 public class OneToN {
 
-    
-
-    public static void main(String[] args) {
-        int[] arr = printOneToN(5);
-        System.out.println(Arrays.toString(arr));
+    public static int[] printNos(int x) {
+        int[] ans = new int[x];
+        return printNosHelper(x, ans);
     }
+
+    public static int[] printNosHelper(int x, int[] ans) {
+        if (x < 1) {
+            return ans;
+        }
+
+        ans[x - 1] = x;
+        return printNosHelper(x - 1, ans);
+    }
+
+
 }
