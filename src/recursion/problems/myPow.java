@@ -1,4 +1,4 @@
-package recursion.conceptual;
+package recursion.problems;
 
 public class myPow {
     public static double myPow(double x, int n) {

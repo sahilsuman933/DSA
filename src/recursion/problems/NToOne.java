@@ -1,4 +1,4 @@
-package recursion.conceptual;
+package recursion.problems;
 
 public class NToOne {
     public static int[] printNos(int x) {

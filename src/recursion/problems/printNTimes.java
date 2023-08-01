@@ -1,4 +1,4 @@
-package recursion.conceptual;
+package recursion.problems;
 
 public class printNTimes {
     public static void printNtimes(int n) {

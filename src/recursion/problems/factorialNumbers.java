@@ -1,4 +1,4 @@
-package recursion.conceptual;
+package recursion.problems;
 
 import java.util.ArrayList;
 import java.util.List;

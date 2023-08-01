@@ -1,4 +1,4 @@
-package recursion.conceptual;
+package recursion.problems;
 
 public class atoi {
     public static int atoi(String str) {
